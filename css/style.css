@@ -1,0 +1,232 @@
+/* Geral */
+* {
+    font-family: 'Asap', sans-serif;
+}
+h1 {
+    text-transform: uppercase;
+    font-family: 'Flamenco', cursive;
+    margin: 0 auto;
+}
+h2 {
+    font-family: 'Flamenco', cursive;
+    width: 100%;
+}
+body {
+    margin: 0;
+}
+
+/* Navegacao */
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    position: fixed;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.quero-agora {
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 10px;
+    color: yellow;
+}
+
+/* Header */
+header {
+    min-height: 100vh;
+    background: url(../img/bg-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div {
+    max-width: 960px;
+    padding-top: 100px;
+    color: white;
+}
+
+header a {
+    background-color: #f3f3f3;
+    color: black;
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: 5s all;
+    text-transform: uppercase;
+}
+
+header a:hover {
+    background-color: black;
+    color: white;
+    transition: 1s color;
+}
+
+/* Main */
+/* Seção Sobre */
+.sobre > div {
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre div div {
+    max-width: 35%;
+    margin-left: 70px;
+}
+
+/* Seção Passo-a-passo */
+.passo-a-passo {
+    min-height: 50vh;
+    width: 100%;
+    text-align: center;
+}
+
+.passo-a-passo div {
+    width: 100%;
+    display: flex;
+}
+
+.passo-a-passo div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.passo-a-passo img {
+    display: block;
+}
+
+.passo-a-passo p {
+    text-align: center;
+    display: block;
+}
+.passo-a-passo span {
+    font-weight: bold;
+    display: block;
+}
+
+/* Seção Serviços */
+.servicos {
+    min-height: 100vh;
+    background: url(../img/bg-servicos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.servicos div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.servicos div div {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: mediumturquoise;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.servicos a {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+}
+
+/* Seção Curiosidades */
+.curiosidades {
+    text-align: center;
+    background: url(../img/bg-numeros.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.curiosidades div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.curiosidades p {
+    width: 25%;
+}
+.curiosidades span {
+    font-size: 50px;
+    display: block;
+    color: yellow;
+    font-weight: bolder;
+}
+
+.contato {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato h2 {
+    text-align: center;
+}
+
+.contato div {
+    display: flex;
+    flex-direction: column;
+    min-width: 50vh;
+}
+
+div.dados {
+    flex-direction: row;
+    justify-content: space-between;
+}
+/*
+.contato > div > div {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+*/
+div input, textarea {
+    background-color:rgba(255, 255, 0, 0.5);
+    width: 100;
+}
+
+div.dados input {
+
+}
